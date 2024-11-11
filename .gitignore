@@ -1,3 +1,5 @@
 .idea
 .venv
 credentials.py
+.DS_Store
+__pycache__
