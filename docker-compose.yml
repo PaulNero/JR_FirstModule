@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  jr_firstmodule_bot:
+    build: .
+    container_name: jr_firstmodule_bot
+    restart: unless-stopped
+    env_file:
+      - .env
