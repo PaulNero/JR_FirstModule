@@ -1079,17 +1079,6 @@ files = [
 ]
 
 [[package]]
-name = "telegram"
-version = "0.0.1"
-description = "Telegram APIs"
-optional = false
-python-versions = "*"
-groups = ["main"]
-files = [
-    {file = "telegram-0.0.1.tar.gz", hash = "sha256:d405a0af4c868a8dbeae6d03e297e21c7ee6269e11e2ed3810e15544aba02591"},
-]
-
-[[package]]
 name = "tqdm"
 version = "4.67.1"
 description = "Fast, Extensible Progress Meter"
@@ -1109,7 +1098,6 @@ dev = ["nbval", "pytest (>=6)", "pytest-asyncio (>=0.24)", "pytest-cov", "pytest
 discord = ["requests"]
 notebook = ["ipywidgets (>=6)"]
 slack = ["slack-sdk"]
-telegram = ["requests"]
 
 [[package]]
 name = "typing-extensions"
@@ -1278,4 +1266,4 @@ propcache = ">=0.2.1"
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11"
-content-hash = "dd6073ba1f239197285ec1e2028486bd2682c9862d72b5fe9ea84c11f63a9c00"
+content-hash = "6db89a6059eb02d1b407699b152a9e1c5502fc9bb76c18c738dcf10ec067a0ab"
